@@ -1,0 +1,45 @@
+= Chapter 1 : Your First Keystrokes
+
+1 . Display the whole calendar for the year 2023. 
+[source,]
+----
+cal 2023 
+----
+
+2 . Display the memory information of your system in a human-readable format. 
+[source,]
+----
+free -h 
+----
+3  Display the contents of your home directory. 
+[source,]
+----
+ls /home/tayfun 
+----
+4 . Change your current user password. 
+[source,]
+----
+passwd tayfun 
+----
+5 . Print the line "Mr. Robot is an awesome TV show!" on your Terminal.  
+[source,]
+----
+echo “Mr. Robot is an awesome TV show!” 
+----
+
+=== True or false 
+
+1 . The command DATE displays the current date and time.(**False**)
+
+2 . To restart your Linux system, you simply run the restart command.(**False**)
+
+3 . There is no difference between running the free -h and free --human 
+commands.(**True**) 
+
+4 . The system load is increasing over time if your load averages values are:
+
+load average: 2.12, 3.09, 4.03(**False**) 
+
+5 . The system load is decreasing over time if your load averages values are:
+
+load average: 0.30, 1.09, 2.03 (**True**) 

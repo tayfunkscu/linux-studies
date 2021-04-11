@@ -1,0 +1,41 @@
+= Chapter 8 : Controlling the Population
+
+1 . Create a new user abraham with a user ID of 333. 
+
+[source,]
+----
+useradd -u 333 abraham 
+----
+2 . Create a new group admins. 
+
+[source,]
+----
+groupadd admins 
+----
+3 . Add user abraham to the admins group. 
+
+[source,]
+----
+usermod -aG admins abraham
+---- 
+4 . Make admins the group owner of the directory /home/abraham. 
+
+[source,]
+----
+chgrp admins /home/abraham/ 
+----
+5 . Members of the admins group can only list the contents of the directory 
+/home/abraham. 
+
+[source,]
+----
+chmod g=r /home/abraham 
+----
+
+=== True or false 
+
+1 . chmod a=rxw facts.txt will have the same result as chmod 777 facts.txt.(**True**) 
+
+2 . chmod a=rw facts.txt will have the same result as chmod 665 facts.txt.(**False**) 
+
+3 . User elliot can have more than one primary group (**False**) 

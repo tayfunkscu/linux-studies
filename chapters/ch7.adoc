@@ -1,0 +1,36 @@
+= Chapter 7 : Who Is Root?
+
+1 . Switch to the root user. 
+
+[source,]
+----
+su root
+----
+2 . Change the password for the root user. 
+
+[source,]
+----
+passwd root 
+----
+3 . Switch to user elliot and land in /home/elliot. 
+
+[source,]
+----
+su - elliot 
+----
+4 . Now switch to user root but preserve the current working directory /home- 
+/elliot. 
+
+[source,]
+----
+su 
+----
+
+ 
+=== True or false 
+1 . The root user is the most powerful user in Linux.(**True**) 
+
+2 . Using the su command without specifying a username will switch you to the 
+root user.(**True**) 
+
+3 . We use the passroot command to change the password for the root user. (**False**) 

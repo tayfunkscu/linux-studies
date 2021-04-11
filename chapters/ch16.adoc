@@ -1,0 +1,34 @@
+= Chapter 16: Bash Scripting Is Fun
+
+1 . Create a bash script that will display the calendar of the current month. 
+
+[source,]
+----
+#!/bin/bash 
+
+cal 
+----
+
+ 
+2 . Modify your script so it displays the calendar for any year (passed as an 
+argument). 
+
+[source,]
+----
+#!/bin/bash 
+
+cal $1 
+----
+
+ 
+3 . Modify your script so it displays the calendar for all the years from 2000 to 2020  
+[source,]
+----
+#!/bin/bash 
+
+for i in {2000..2020}; do 
+
+cal $i 
+
+done 
+----

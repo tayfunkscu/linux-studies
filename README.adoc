@@ -1,0 +1,29 @@
+= Linux Studies
+
+=== My Answers to the End of Chapter Questions
+
+*Learn Linux Quickly, ISBN 978-1-80056-600-2*
+
+Chapters
+
+* http://url[Chapter 1: Your First Keystrokes]
+* http://url[Chapter 2: Climbing the Tree]
+* http://url[Chapter 3: Meet the Editors]
+* http://url[Chapter 4: Copying, Moving, and Deleting Files]
+* http://url[Chapter 5: Read Your Manuals!]
+* http://url[Chapter 6: Hard versus Soft Links]
+* http://url[Chapter 7: Who Is Root?]
+* http://url[Chapter 8: Controlling the Population]
+* http://url[Chapter 9: Piping and I/O Redirection]
+* http://url[Chapter 10: Analyzing and Manipulating Files]
+* http://url[Chapter 11: Let's Play Find and Seek]
+* http://url[Chapter 12: You Got a Package]
+* http://url[Chapter 13: Kill the Process]
+* http://url[Chapter 14: The Power of Sudo]
+* http://url[Chapter 15: What's Wrong with the Network?]
+* http://url[Chapter 16: Bash Scripting Is Fun]
+* http://url[Chapter 17: You Need a Cron Job]
+* http://url[Chapter 18: Archiving and Compressing Files]
+* http://url[Chapter 19: Create Your Own Commands]
+* http://url[Chapter 20: Everyone Needs Disk Space]
+* http://url[Chapter 21: echo ”Goodbye My Friend”]

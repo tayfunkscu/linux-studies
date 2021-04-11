@@ -1,0 +1,27 @@
+= Chapter 9 : Piping and I/O Redirection
+
+1 . Display only the 5th line of the file facts.txt. 
+
+[source,]
+----
+head -n 5 facts.txt | tail -n 1
+---- 
+2 . Save the output of the free command into a file named system.txt. 
+
+[source,]
+----
+free > system.txt 
+----
+3 . Append the output of the lscpu command to the file system.txt. 
+
+[source,]
+----
+lscpu >> system.txt
+---- 
+4 . Run the command rmdir /var and redirect the error message to the file 
+error.txt. 
+
+[source,]
+----
+rmdir /var 2> error.txt
+----  

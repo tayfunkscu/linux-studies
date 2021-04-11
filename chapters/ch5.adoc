@@ -1,0 +1,52 @@
+= Chapter 5 : Read Your Manuals
+
+1 . You need to know if the echo command is a shell builtin or an executable 
+program, which command would you run? 
+
+[source,]
+----
+type echo
+---- 
+2 . Display the location of the uptime command executable file. 
+
+[source,]
+----
+which uptime
+---- 
+3 . Show a brief description of the mkdir command. 
+
+[source,]
+----
+whatis mkdir
+---- 
+4 . You forgot how to use the mv command, what are you going to do? 
+
+[source,]
+----
+man mv 
+----
+5 . You forgot which command is used to display the calendar, what are you going 
+to do? 
+
+[source,]
+----
+apropos display 
+----
+6 . The history command is a shell builtin and so it doesn't have a man page. You 
+want to clear your history but don't know how. What are you going to do? 
+
+[source,]
+----
+help history 
+----
+ 
+=== True or false 
+
+1 . The command whereis is used to locate commands.(**False**) 
+
+2 . You can use man -p and apropos interchangeably.(**False**) 
+
+3 . You can use the whatis command to get a brief description of a command.(**True**) 
+
+4 . You can use the type command to determine if a command is an alias, shell 
+builtin, or an executable program. (**True**) 

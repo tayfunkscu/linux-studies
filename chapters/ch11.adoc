@@ -1,0 +1,32 @@
+= Chapter 11: Let's Play Find and Seek
+
+1 . Use the locate command to find the path of the file boot.log. 
+
+[source,]
+----
+locate boot.log 
+----
+2 . Find all the files that are bigger than 50 MB in size. 
+
+[source,]
+----
+find / -size +50M
+---- 
+3 . Find all the files that are between 70 MB and 100 MB in size. 
+
+[source,]
+----
+find / -size +70M -size -100MB
+---- 
+4 . Find all the files that are owned by the user smurf. 
+
+[source,]
+----
+find / -user smurf 
+----
+5 . Find all the files that are owned by the group developers. 
+
+[source,]
+----
+find / -group developers
+----  

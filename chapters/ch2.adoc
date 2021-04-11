@@ -1,0 +1,42 @@
+= Chapter 2 : Climbing the Tree
+
+1 . Do a long listing for all the files in /var/log. 
+[source,]
+----
+ls –l /var/log 
+----
+2 . Display the contents of the file /etc/hostname. 
+[source,]
+----
+cat /etc/hostname 
+----
+3 . Create three files – file1, file2, and file3 – in /home/elliot. 
+
+[source,]
+----
+touch file1 file2 file3 /home/elliot
+---- 
+4 . List all the files (including hidden files) of elliot's home directory. 
+
+[source,]
+----
+ls -a /home/elliot
+---- 
+5 . Create a directory named fsociety in /home/elliot. 
+
+[source,]
+----
+mkdir fsociety
+---- 
+
+ 
+=== True or false 
+1 . /home/root is the home directory of the root user.(**False**) 
+
+2 . dir1/dir2/dir3 is an example of an absolute path.(**False**) 
+
+3 . /home/elliot/Desktop is an example of an absolute path.(**True**) 
+
+4 . touch -m file1 will update file1 access time.(**False**) 
+
+5 . mkdir dir1 dir2 dir3 will create three directories – dir1, dir2, and dir3.(**True**) 

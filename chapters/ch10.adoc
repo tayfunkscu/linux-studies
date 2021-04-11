@@ -1,0 +1,32 @@
+= Chapter 10: Analyzing and Manipulating Files
+
+1 . Display the size (in bytes) of the file /etc/hostname. 
+
+[source,]
+----
+du -b /etc/hostname 
+----
+2 . Display only the group names in the file /etc/group. 
+
+[source,]
+----
+awk -F: '{print $1}' /etc/group 
+----
+3 . Display the total number of lines in the file /etc/services. 
+
+[source,]
+----
+wc -l /etc/services 
+----
+4 . Display only the lines that contain the word "bash" in the file /etc/passwd. 
+
+[source,]
+----
+grep bash /etc/passwd
+---- 
+5 . Display the output of the uptime command in all uppercase letters.  
+
+[source,]
+----
+uptime | tr [:lower:] [:upper:]
+---- 

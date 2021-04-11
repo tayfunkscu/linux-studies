@@ -1,0 +1,20 @@
+= Chapter 17: You Need a Cron Job
+
+1 . Create a cron job for the root user that will run every 10 minutes. The cron job 
+will simply append the line "10 minutes have passed!" to the file 
+/root/minutes.txt. 
+
+[source,]
+----
+*/10 * * * * echo "10 minutes have passed! " >> /root/minutes.txt 
+----
+
+ 
+2 . Create a cron job for the root user that will run every Christmas (25th of 
+December at 1 AM). The cron job will simply append the line "Merry 
+Christmas!" to the file /root/holidays.txt.  
+
+[source,]
+----
+0 1 25 12 * echo "Merry Christmas!" >> /root/holidays.txt 
+----

@@ -1,0 +1,32 @@
+= Chapter 13: Kill the Process
+
+1 . List the process ID of your running terminal. 
+
+[source,]
+----
+ps -e
+---- 
+2 . List the parent process ID of your running terminal. 
+
+[source,]
+----
+ps -ef 
+----
+3 . Use the kill command to close your terminal. 
+
+[source,]
+----
+pkill -SIGKILL terminal
+---- 
+4 . Start Firefox as a background process. 
+
+[source,]
+----
+firefox & 
+----
+5 . Change Firefox's priority to a maximum priority  
+
+[source,]
+----
+renice -n -20 -p $(pgrep ^firefox$) 
+----

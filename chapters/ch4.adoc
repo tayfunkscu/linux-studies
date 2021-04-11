@@ -1,0 +1,99 @@
+= Chapter 4 : Copying, Moving, and Deleting
+Files
+
+1 . Create three files hacker1, hacker2, and hacker3 in your home directory. 
+
+[source,]
+----
+touch hacker1 hacker2 hacker3 
+----
+2 . Create three directories Linux, Windows, and Mac in your home directory. 
+
+[source,]
+----
+mkdir Linux Windows Mac
+---- 
+3 . Create a file named cool inside the Linux directory you created in task 2. 
+
+[source,]
+----
+touch Linux/cool 
+----
+4 . Create a file named boring inside the Windows directory you created in task 2. 
+
+[source,]
+----
+touch Windows/boring
+---- 
+5 . Create a file named expensive in the Mac directory you created in task 2. 
+
+[source,]
+----
+touch Mac/expensive 
+----
+6 . Copy the two files hacker1 and hacker2 to the /tmp directory. 
+
+[source,]
+----
+cp hacker1 hacker2 /tmp
+---- 
+7 . Copy the two directories Windows and Mac to the /tmp directory. 
+
+[source,]
+----
+cp –r Windows Mac /tmp 
+----
+8 . Move the file hacker3 to the /tmp directory. 
+
+[source,]
+----
+mv hacker3 /tmp
+---- 
+9 . Move the directory Linux to the /tmp directory. 
+
+[source,]
+----
+mv Linux /tmp
+---- 
+10 . Remove the file expensive from the Mac directory (in your home directory). 
+
+[source,]
+----
+rm Mac/expensive
+---- 
+11 . Remove the directory Mac from your home directory. 
+
+[source,]
+----
+rmdir Mac
+---- 
+12 . Remove the directory Windows from your home directory. 
+
+[source,]
+----
+rm –r Windows
+---- 
+13 . Remove the file hacker2 from your home directory. 
+
+[source,]
+----
+rm hacker2
+---- 
+14 . Rename the file hacker1 to hacker01. 
+
+[source,]
+----
+mv hacker1 hacker01
+---- 
+
+=== True or false 
+
+1 . The cp command can copy directories without using the recursive option -r.(**False**) 
+
+2 . You have to use the recursive option -r when moving directories.(**False**) 
+
+3 . You can use the mv command to rename files or directories.(**True**) 
+
+4 . You can remove a non-empty directory with the rmdir command.(**False**)
+
+5 . You can remove a non-empty directory with the rm -r command.(**True**) 

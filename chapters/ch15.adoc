@@ -1,0 +1,44 @@
+= Chapter 15: What's Wrong with the Network?
+
+1 . Change your hostname to darkarmy. 
+
+[source,]
+----
+hostnamectl set-hostname darkarmy
+---- 
+2 . Display the IP address of your default gateway. 
+
+[source,]
+----
+route -n 
+----
+3 . Trace the route from your machine to www.ubuntu.com. 
+
+[source,]
+----
+traceroute www.ubuntu.com 
+----
+4 . Display the IP address of your DNS. 
+
+[source,]
+----
+cat /etc/resolv.conf
+---- 
+5 . Display the IP address of www.distrowatch.com. 
+
+[source,]
+----
+nslookup distrowatch.com 
+----
+6 . Bring down your Ethernet interface. 
+
+[source,]
+----
+ifconfig eth0 down 
+----
+7 . Bring your Ethernet interface back up 
+
+[source,]
+----
+ifconfig eth0 up  
+----

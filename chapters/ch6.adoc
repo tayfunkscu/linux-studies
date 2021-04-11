@@ -1,0 +1,81 @@
+= Chapter 6 : Hard versus Soft Links
+
+1 . Display the inode number of the /var/log directory. 
+
+[source,]
+----
+ls -i /var/log 
+----
+2 . Display the number of hard links for the /boot directory. 
+
+[source,]
+----
+stat /boot 
+----
+3 . Create a new directory named coins in your home directory. 
+
+[source,]
+----
+mkdir coins 
+----
+4 . Create a soft link to coins named currency. 
+
+[source,]
+----
+ln -s coins currency 
+----
+5 . Inside the coins directory, create two files – silver and gold. 
+
+[source,]
+----
+touch coins/{silver,gold}
+---- 
+6 . Create a new file bronze inside currency. 
+
+[source,]
+----
+touch currency/{bronze}
+---- 
+7 . List the contents of both directories – coins and currency. 
+
+[source,]
+----
+ls coins currency
+---- 
+8 . Create a new file beverages with the line "coffee is awesome" in your home 
+directory and create a hard link named drinks to beverages. 
+
+[source,]
+----
+echo "coffee is awesome" > beverages 
+ln beverages drinks
+----
+
+9 . Add the line "lemon is refreshing" to the drinks file and then remove the 
+beverages file. 
+
+[source,]
+----
+echo “lemon is refreshing” >> drinks && rm beverages
+---- 
+10 . Display the contents of your drinks file. 
+
+[source,]
+----
+cat drinks
+---- 
+=== True or false 
+1 . The File Name is a part of the inode data structure.(**False**)
+
+2 . The File Size is a part of the inode data structure.(**True**) 
+
+3 . You can create soft links to directories.(**True**) 
+
+4 . You can create hard links to directories. (**False**) 
+
+
+5 . The minimum number of hard links for a directory is 2.(**True**) 
+
+6 . Soft links have the same inode number as the original file.(**False**) 
+
+7 . Hard links have the same inode number as the original file. (**True**) 

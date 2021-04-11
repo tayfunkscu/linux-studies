@@ -1,0 +1,33 @@
+= Chapter 12: You Got a Package
+
+1 . Install the tmux package on your system. 
+
+[source,]
+----
+apt install tmux
+---- 
+2 . List all the dependencies of the vim package. 
+
+[source,]
+----
+apt-cache depends vim
+---- 
+3 . Install the cowsay package on your system. 
+
+[source,]
+----
+apt install cowsay
+---- 
+4 . Remove the cowsay package along with all its configuration files. 
+
+[source,]
+----
+apt-get purge cowsay
+---- 
+5 . Upgrade all the packages on your system (patch your system). 
+
+[source,]
+----
+apt-get –y update
+apt-get –y upgrade 
+----

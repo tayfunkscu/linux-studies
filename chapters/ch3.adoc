@@ -1,0 +1,32 @@
+= Chapter 3 : Meet the Editors
+
+1 . Only view the first two lines of the file facts.txt. 
+
+[source,]
+----
+head -n 2 facts.txt
+---- 
+2 . Only view the last line of the file facts.txt. 
+
+[source,]
+----
+tail –n 1 facts.txt 
+----
+3 . Display the contents of the file facts.txt in a reversed order. 
+
+[source,]
+----
+tac facts.txt 
+----
+4 . Open the file facts.txt using the vi editor. 
+
+[source,]
+----
+vi facts.txt
+---- 
+5 . Exit the vi editor and consider yourself one of the elites. 
+
+[source,]
+----
+:wq  
+----

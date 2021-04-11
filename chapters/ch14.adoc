@@ -1,0 +1,20 @@
+= Chapter 14: The Power of Sudo
+
+1 . Add a sudo rule so that user smurf can run the fdisk command. 
+
+[source,]
+----
+echo “smurf ALL=(ALL) /usr/sbin/fdisk” >> /etc/sudoers 
+----
+2 . Add a sudo rule so that the developers group can run the apt-get command. 
+
+[source,]
+----
+echo “developers ALL=(ALL) /usr/bin/apt-get” >> /etc/sudoers
+---- 
+3 . List all the sudo commands of user smurf. 
+
+[source,]
+----
+sudo -lU smurf 
+---- 

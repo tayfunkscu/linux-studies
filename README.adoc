@@ -7,22 +7,39 @@
 Chapters
 
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch1.adoc[Chapter 1: Your First Keystrokes]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch2.adoc[Chapter 2: Climbing the Tree]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch3.adoc[Chapter 3: Meet the Editors]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch4.adoc[Chapter 4: Copying, Moving, and Deleting Files]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch5.adoc[Chapter 5: Read Your Manuals!]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch6.adoc[Chapter 6: Hard versus Soft Links]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch7.adoc[Chapter 7: Who Is Root?]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch8.adoc[Chapter 8: Controlling the Population]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch9.adoc[Chapter 9: Piping and I/O Redirection]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch10.adoc[Chapter 10: Analyzing and Manipulating Files]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch11.adoc[Chapter 11: Let's Play Find and Seek]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch12.adoc[Chapter 12: You Got a Package]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch13.adoc[Chapter 13: Kill the Process]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch14.adoc[Chapter 14: The Power of Sudo]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch15.adoc[Chapter 15: What's Wrong with the Network?]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch16.adoc[Chapter 16: Bash Scripting Is Fun]
+
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch17.adoc[Chapter 17: You Need a Cron Job]
+
 * http://url[Chapter 18: Archiving and Compressing Files]
 * http://url[Chapter 19: Create Your Own Commands]
 * http://url[Chapter 20: Everyone Needs Disk Space]

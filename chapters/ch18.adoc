@@ -1,0 +1,24 @@
+= Chapter 18: Archiving and Compressing
+Files
+
+1.Create a gzip archive named var.tar.gz in /root for all the files in /var.
+
+[source,]
+----
+tar -cvf /root/var.tar.gz /var
+----
+
+ 
+2.Create a bzip2 archive named tmp.tar.bz2 in /root for all the files in /tmp.  
+
+[source,]
+----
+tar -jvf /root/tmp.tar.bz2 /tmp
+----
+
+3.Create an xz archive named etc.tar.xz in /root for all the files in /etc.
+
+[source,]
+----
+tar -Jvf /root/tmp.tar.bz2 /tmp
+----

@@ -40,7 +40,6 @@ Chapters
 
 * https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch17.adoc[Chapter 17: You Need a Cron Job]
 
-* http://url[Chapter 18: Archiving and Compressing Files]
-* http://url[Chapter 19: Create Your Own Commands]
+* https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch18.adoc[Chapter 18: Archiving and Compressing Files]
+* https://github.com/tayfunkscu/linux-studies/blob/main/chapters/ch19.adoc[Chapter 19: Create Your Own Commands]
 * http://url[Chapter 20: Everyone Needs Disk Space]
-* http://url[Chapter 21: echo ”Goodbye My Friend”]

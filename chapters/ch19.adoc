@@ -1,0 +1,24 @@
+= Chapter 19: Create Your Own Commands
+
+1.Create a temporary alias called ins for the apt-get install command.
+
+[source,]
+----
+alias ins="apt-get install"
+----
+
+ 
+2.Create a temporary alias called packages for the dpkg -l command.
+
+[source,]
+----
+alias packages="dpkg -l"
+----
+
+3.Create a permanent alias called clean that will remove all the files in the
+/tmp directory.
+
+[source,]
+----
+echo "alias clean="rm -r /tmp/*"" >> .bashrc
+----
